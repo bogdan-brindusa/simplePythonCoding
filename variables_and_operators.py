@@ -19,3 +19,13 @@ fname = input("First name: ")
 lname = input("Surname: ")
 fullName = fname + " " + lname
 print("Your name is %s" %fullName)
+
+# using 'for' loop
+for i in range(10):
+    print(i+1)
+
+# using 'while' loop
+a = 10
+while a > 0:
+    print(a)
+    a -= 1
